@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/coffee_shop/static/css/main.62e77dbc.css",
+    "main.js": "/coffee_shop/static/js/main.b641d1c9.js",
+    "static/media/Hero Img.svg": "/coffee_shop/static/media/Hero Img.21dcc004a2538a99b873a0aa4a46c36e.svg",
+    "static/media/Coffees.svg": "/coffee_shop/static/media/Coffees.faab05e70432c062c0a7c4e327fa9eab.svg",
+    "static/media/Reserve Img.svg": "/coffee_shop/static/media/Reserve Img.b8b37064dc6d31dd66b9c754a8ca9a14.svg",
+    "static/media/Cup1.svg": "/coffee_shop/static/media/Cup1.cd3f2d12c89e612909ee4e527cb73ad0.svg",
+    "static/media/Proefpakket_page-0003 2 (no bg).svg": "/coffee_shop/static/media/Proefpakket_page-0003 2 (no bg).080a7cdc244dfef1ba19667226f348c7.svg",
+    "static/media/logo.svg": "/coffee_shop/static/media/logo.23d8cc3eacb427b457bab26891f6837c.svg",
+    "static/media/Image-ourstory.svg": "/coffee_shop/static/media/Image-ourstory.84a0b3c296900e7fa43277e297eb8a1e.svg",
+    "static/media/eq.svg": "/coffee_shop/static/media/eq.46254ebe1314ee80673d3980503548f0.svg",
+    "static/media/ps.svg": "/coffee_shop/static/media/ps.b39a811cad4f2c92960de610b9bb6999.svg",
+    "static/media/ta.svg": "/coffee_shop/static/media/ta.83c2199da562383bcee50c15b4153d00.svg",
+    "static/media/bv.svg": "/coffee_shop/static/media/bv.5bd0bbe5ab0c46ac3c13b046db002fcd.svg",
+    "static/media/healthicons_vespa-motorcycle-outline.svg": "/coffee_shop/static/media/healthicons_vespa-motorcycle-outline.62ae36b3fee58084417cc42017f1c23b.svg",
+    "static/media/Icon-navi.svg": "/coffee_shop/static/media/Icon-navi.9e78e407ef042819b2e7c0b61a9adb4d.svg",
+    "static/media/tc.svg": "/coffee_shop/static/media/tc.799c6eb31324c7df986cadbd2fef38c6.svg",
+    "static/media/guest.svg": "/coffee_shop/static/media/guest.f3fadb34cbb66366627734b27fd0ca82.svg",
+    "static/media/name.svg": "/coffee_shop/static/media/name.c31239eba1b76ed9e62cebb22af3fd20.svg",
+    "static/media/phone.svg": "/coffee_shop/static/media/phone.4637bdb982f4836f60745e6fd7cc160e.svg",
+    "static/media/date.svg": "/coffee_shop/static/media/date.db0698a23aa1c2fb210daf89b0178057.svg",
+    "static/media/time.svg": "/coffee_shop/static/media/time.c9aa8946db8ec6d65bd533c1225283b9.svg",
+    "index.html": "/coffee_shop/index.html",
+    "static/media/mail.svg": "/coffee_shop/static/media/mail.fc13e2013ea2e25ca9a9064de3e26562.svg",
+    "main.62e77dbc.css.map": "/coffee_shop/static/css/main.62e77dbc.css.map",
+    "main.b641d1c9.js.map": "/coffee_shop/static/js/main.b641d1c9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62e77dbc.css",
+    "static/js/main.b641d1c9.js"
+  ]
+}
