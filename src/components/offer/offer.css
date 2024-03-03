@@ -1,0 +1,59 @@
+.offer{
+    height: fit-content;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--common-background-color);
+    padding-bottom: 2.5rem;
+}
+#offer-frame{
+    height: fit-content;
+    background: linear-gradient(160deg, rgba(119, 81, 66, 1) 0%, rgba(74, 39, 33, 1) 71%);
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5rem;
+    border-radius: 2rem;
+    position: relative;
+    /* padding: 2.5rem; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1#heading, h1#offer{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3.5em;
+    color: #F8E4BE;
+    font-weight: 400;
+    text-shadow: 0px 69px 19px rgba(32, 19, 22, 0.01), 0px 44px 18px rgba(32, 19, 22, 0.09), 0px 25px 15px rgba(32, 19, 22, 0.31), 0px 11px 11px rgba(32, 19, 22, 0.52), 0px 3px 6px rgba(32, 19, 22, 0.6), 0px 0px 0px rgba(32, 19, 22, 0.62);
+}
+h1#heading{
+    font-size: 5em;
+    font-family: "Dancing Script", cursive;
+    position: absolute;
+    top: -2.5rem;
+    left: 2.5rem;
+    font-weight: 700;
+}
+h1#offer span{
+    font-size: 1.25em;
+}
+h1#offer{
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+}
+p#offer-details{
+    font-size: 2.25em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+}
+.offer button#shop-now{
+    margin-top: 2rem;
+}
+.proefpacket-image img{
+    height: 362px;
+    width: 332.18px;
+}
+.offer .left-side{
+    width: 60%;
+    margin-left: 5rem;
+}

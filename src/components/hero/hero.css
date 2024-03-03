@@ -1,0 +1,150 @@
+.glow1{
+    height: 1102px;
+    width: 1102px;
+    background-color: #3F2F2A;
+    position: absolute;
+    left: -550px;
+    top: -510px;
+    border-radius: 50%;
+    filter: blur(50px);
+    z-index: 1;
+}
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    height: fit-content;
+    background-color: var(--common-background-color);
+    padding-bottom: .5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.glow2{
+    height: 450px;
+    width: 450px;
+    background-color: #745F58;
+    border-radius: 50%;
+    position: absolute;
+    left: -224px;
+    top: -184px;
+    z-index: 1;
+    filter: blur(80px);
+}
+.heroImg{
+    height: 40rem;
+    /* width: 618px; */
+}
+.heroImg img{
+    height: 40rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.hero .right-side{
+    background: linear-gradient(180deg, rgba(124, 87, 60, 1) 50%, rgba(0, 0, 0, 1) 100%);
+    position: relative;
+    z-index: 2;
+    height: 100vh;
+    display: flex;
+    width: 50%;
+    max-width: 618px;
+    flex-shrink: 1;
+}
+#card{
+    height: 247px;
+    width: 400px;
+    background-color: #4A2721;
+    border-top-left-radius: 3rem;
+    border-left: .6rem ridge #A8715C;
+    border-top-right-radius: 3rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 2.5rem;
+    z-index: 3;
+}
+#card .cards-right-part{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 1rem;
+}
+#card img#cup1{
+    height: 12rem;
+    margin-left: 2rem;
+}
+#card p{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 3em;
+    text-wrap: nowrap;
+}
+#card button{
+    font-size: 1.3em;
+    width: 8.5rem;
+    padding: .5rem 0;
+    border-radius: 50px;
+    background-color: transparent;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    cursor: pointer;
+    border: .1rem solid var(--button-border-color);
+}
+#card button:active,button#shop-now:active,button#catelog:active{
+    border-color: var(--button-clicked);
+}
+#card button img{
+    height: 1.3rem;
+}
+h1.elza-coffee{
+    font-size: 12em;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    -webkit-text-stroke: #F7E1BC;
+    -webkit-text-stroke-width: .2rem;
+    margin: 1.5rem 0;
+    z-index: 3;
+    text-wrap: nowrap;
+}
+p.good-mood{
+    font-size: 2.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    z-index: 3;
+}
+.hero #left-side{
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    height: calc(100vh - 5rem);
+    justify-content: space-between;
+}
+button#shop-now,button#catelog{
+    padding: .5rem 0;
+    width: 10rem;
+    border-radius: 50px;
+    border: .1rem solid var(--button-border-color);
+    background-color: transparent;
+    font-size: 2em;
+    /* margin-top: 2rem; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: .1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+button#shop-now{
+    background-color: #f7e1bc46;
+}
+button#catelog{
+    margin-left: 3rem;
+}
+.buttons{
+    display: flex;
+    margin-top: 2.5rem;
+    z-index: 3;
+}

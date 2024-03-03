@@ -1,0 +1,12 @@
+export {default as Navbar} from './navbar/Navbar';
+export {default as Blog} from './blog/Blog';
+export {default as Footer} from './footer/Footer';
+export {default as Hero} from './hero/Hero';
+export {default as Offer} from './offer/Offer';
+export {default as OurMenu} from './our_menu/OurMenu';
+export {default as OurStory} from './our_story/OurStory';
+export {default as Recommended} from './recommended/Recommended';
+export {default as ReserveTable} from './reserve_table/ReserveTable';
+export {default as Review} from './review/Review';
+export {default as Services} from './services/Services';
+export {default as Subscribe} from './subscribe/Subscribe';
