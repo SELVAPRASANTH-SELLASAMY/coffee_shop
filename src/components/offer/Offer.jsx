@@ -11,7 +11,7 @@ function Offer() {
           <p className='golden-gradient' id="offer-details">
           At our cafe, we take pride in providing our customers with the best coffee around. Our carefully-selected coffees come from some of the most renowned coffee growing regions in the world, ensuring that each cup is unrivaled in flavor and freshness. 
           </p>
-          <button id="shop-now" className='golden-gradient'>Shop Now</button>
+          <button id="shop-now">Shop Now</button>
         </div>
         <div className="right-side">
           <img src={proef_packet} alt="proef-packet" />

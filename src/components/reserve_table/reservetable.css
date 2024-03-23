@@ -11,11 +11,10 @@ h1#reserve-table-headline{
     font-weight: 700;
     font-size: 5em;
     color: #F8E4BE;
-    font-weight: 400;
     text-shadow: 0px 69px 19px rgba(32, 19, 22, 0.01), 0px 44px 18px rgba(32, 19, 22, 0.09), 0px 25px 15px rgba(32, 19, 22, 0.31), 0px 11px 11px rgba(32, 19, 22, 0.52), 0px 3px 6px rgba(32, 19, 22, 0.6), 0px 0px 0px rgba(32, 19, 22, 0.62);
     position: absolute;
     text-align: center;
-    left: calc(50% - 6ch);
+    left: calc(50% - 5ch);
     top: -2.5rem;
 }
 #reserve-table-container{
@@ -23,32 +22,77 @@ h1#reserve-table-headline{
     background: linear-gradient(160deg, rgba(119, 81, 66, 1) 0%, rgba(74, 39, 33, 1) 71%);
     position: relative;
     margin: 5rem 0;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+#reserve-table-right{
+    width: fit-content;
+    padding: 2rem;
 }
 section#reserve-table-left img{
     height: 429.2px;
     width: 472.35px;
     margin: 1rem;
 }
-form#reserve-table-form{
-    height: 20rem;
-    background-color: green;
-}
-#reserve-table-form input{
-    height: 2.5rem;
-    width: 25rem;
-    border-radius: .5rem;
-    padding: 0 2rem;
-    color: #9D8781;
-}
-#reserve-table-form img{
-    height: 24px;
-    width: 24px;
-    position: absolute;
-    left: .5rem;
-    top: .5rem;
-}
 .input{
     height: fit-content;
     width: fit-content;
     position: relative;
+    margin: 1rem 0;
+}
+.input input{
+    width: 35rem;
+    font-size: 1.5em;
+    padding: .7rem 1rem;
+    color: #9D8781;
+    padding-left: 2.25rem;
+    border-radius: .5rem;
+    outline-color: rgb(53, 141, 255);
+}
+.input img{
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    left: .5rem;
+    top: .6rem;
+}
+.timeAndGuest{
+    width: 35rem;
+    display: flex;
+    justify-content: space-between;
+}
+.timeAndGuest input{
+    width: 17rem;
+}
+button#reserve-table{
+    color: #F7E1BC;
+    height: auto;
+}
+.emailAndButton{
+    width: 35rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.emailAndButton input{
+    width: 24rem;
+}
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    appearance: none;
+}
+input[type="time"]::-webkit-calendar-picker-indicator,input[type="date"]::-webkit-calendar-picker-indicator{
+    height: 1.25rem;
+    width: 1.25rem;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+div.input:nth-child(4){
+    margin-top: 2rem;
+}
+input::placeholder{
+    color: #9D8781;
 }

@@ -9,6 +9,9 @@ function App() {
       <Services/>
       <Offer/>
       <ReserveTable/>
+      <Recommended/>
+      <OurMenu/>
+      <Blog/>
     </div>
   )
 }

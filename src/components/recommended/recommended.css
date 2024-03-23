@@ -1,0 +1,98 @@
+.recommended{
+    height: fit-content;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--common-background-color);
+    padding-bottom: 2.5rem;
+}
+.recommended h1{
+    font-family: "Dancing Script", cursive;
+    font-weight: 700;
+    font-size: 5em;
+    color: #F8E4BE;
+    text-shadow: 0px 69px 19px rgba(32, 19, 22, 0.01), 0px 44px 18px rgba(32, 19, 22, 0.09), 0px 25px 15px rgba(32, 19, 22, 0.31), 0px 11px 11px rgba(32, 19, 22, 0.52), 0px 3px 6px rgba(32, 19, 22, 0.6), 0px 0px 0px rgba(32, 19, 22, 0.62);
+    text-align: center;
+}
+.recommended-items-container{
+    height: fit-content;
+    width: 100%;
+    /* background-color: green; */
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    padding: 0 2.5rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+.recommended-items-container::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+.recommended-items-container .item{
+    height: 22rem;
+    width: 18rem;
+    border-radius: 2rem;
+    background: linear-gradient(160deg, rgba(119, 81, 66, 1) 0%, rgba(74, 39, 33, 1) 71%);
+    margin: 1rem 0;
+    scroll-snap-align: center;
+}
+.recommended-items-container figure{
+    display: grid;
+    place-content: center;
+    position: relative;
+}
+.recommended-items-container figure img#product{
+    height: 18rem;
+    width: auto;
+}
+.recommended-items-container figure img#phInfo{
+    height: 1rem;
+    width: 1rem;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    cursor: pointer;
+}
+.recommended-items-container figure img#cart{
+    height: 2rem;
+    width: 2rem;
+    position: absolute;
+    bottom: 0;
+    right: 1rem;
+    cursor: pointer;
+}
+.recommended-items-container figcaption{
+    font-size: 2em;
+    color: #F8E4BE;
+    display: flex;
+    margin-top: .8rem;
+    justify-content: center;
+    background-color: rgba(144, 82, 66, 0.915);
+    padding: 1rem 0;
+    border-radius: 0 0 2rem 2rem;
+}
+.recommended-items-container figcaption :nth-child(1)::after{
+    content: " |";
+    letter-spacing: .5rem;
+    font-weight: 700;
+}
+.recommended-items-container figcaption div:nth-child(1){
+    font-weight: 700;
+}
+.recommendation-buttons{
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    gap: 1rem;
+    margin: 0 auto;
+}
+.recommendation-buttons img{
+    height: 2rem;
+    width: 2rem;
+    cursor: pointer;
+}
+.recommendation-buttons img#next-btn{
+    transform: rotate(180deg);
+}

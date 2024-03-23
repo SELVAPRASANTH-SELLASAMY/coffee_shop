@@ -47,6 +47,7 @@ p#offer-details{
     text-align: justify;
 }
 .offer button#shop-now{
+    color: #F7E1BC;
     margin-top: 2rem;
 }
 .proefpacket-image img{

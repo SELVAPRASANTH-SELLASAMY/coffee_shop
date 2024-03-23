@@ -19,4 +19,22 @@ body{
         background-clip: text;
         -webkit-text-fill-color: transparent;
     };
+    button#shop-now,button#catelog,button#reserve-table{
+        padding: .5rem 0;
+        width: 10rem;
+        border-radius: 50px;
+        border: .1rem solid var(--button-border-color);
+        background-color: transparent;
+        font-size: 2em;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        letter-spacing: .1rem;
+        font-weight: 700;
+        cursor: pointer;
+    }
+    button#shop-now,button#reserve-table{
+        background-color: #f7e1bc46;
+    }
+    button#shop-now:active,button#reserve-table:active,button#hurry-up:active,button#catelog:active{
+        border-color: var(--button-clicked);
+    }
 }

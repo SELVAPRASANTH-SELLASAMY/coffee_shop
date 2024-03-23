@@ -93,9 +93,6 @@
     cursor: pointer;
     border: .1rem solid var(--button-border-color);
 }
-#card button:active,button#shop-now:active,button#catelog:active{
-    border-color: var(--button-clicked);
-}
 #card button img{
     height: 1.3rem;
 }
@@ -124,22 +121,7 @@ p.good-mood{
     height: calc(100vh - 5rem);
     justify-content: space-between;
 }
-button#shop-now,button#catelog{
-    padding: .5rem 0;
-    width: 10rem;
-    border-radius: 50px;
-    border: .1rem solid var(--button-border-color);
-    background-color: transparent;
-    font-size: 2em;
-    /* margin-top: 2rem; */
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    letter-spacing: .1rem;
-    font-weight: 700;
-    cursor: pointer;
-}
-button#shop-now{
-    background-color: #f7e1bc46;
-}
+
 button#catelog{
     margin-left: 3rem;
 }

@@ -1,0 +1,65 @@
+.blog{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--common-background-color);
+    padding-bottom: 2.5rem;
+}
+h1#blog-heading{
+    font-size: 5em;
+    font-family: "Dancing Script", cursive;
+    color: #F8E4BE;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 5rem;
+    z-index: 2;
+    text-shadow: 0px 69px 19px rgba(32, 19, 22, 0.01), 0px 44px 18px rgba(32, 19, 22, 0.09), 0px 25px 15px rgba(32, 19, 22, 0.31), 0px 11px 11px rgba(32, 19, 22, 0.52), 0px 3px 6px rgba(32, 19, 22, 0.6), 0px 0px 0px rgba(32, 19, 22, 0.62);
+}
+.blog-container{
+    height: 25rem;
+    width: 100vw;
+    background-color: #53362A;
+    background-image: url('../../assets/blog-bg1.svg'),url('../../assets/blog-bg2.svg');
+    background-repeat: no-repeat,no-repeat;
+    background-size: contain,contain;
+    background-position: 0,right;
+    margin-top: -1.25rem;
+    display: flex;
+    align-items: center;
+}
+.blog-item{
+    height: 20rem;
+    width: 30rem;
+    border-radius: 2rem;
+    background-color: #997D6C;
+    padding: 2rem 1.5rem;
+}
+h3#blog-item-heading{
+    color: #ffffff;
+    font-size: 2.5em;
+    text-transform: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p#blog-description{
+    color: #ffffff;
+    font-size: 1.85em;
+    text-align: justify;
+    height: 8rem;
+    width: 425px;
+    /* background-color: red; */
+    line-height: 1.6rem;
+    text-overflow: ellipsis;
+    overflow-y: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    margin-top: 1.25rem;
+}
+.blog figure{
+    /* background-color: blue; */
+    margin-top: 1.25rem;
+}
+.blog figure img{
+    height: 2.5rem;
+}
